@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         <code className={'code'}>pages/index.jsx</code>
       </p>
     </MainLayout>
-  )
+  );
 }
 
 export default Home

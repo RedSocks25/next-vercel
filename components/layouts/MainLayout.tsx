@@ -28,5 +28,5 @@ export const MainLayout: FC<Props> = ({ children }) => {
         
       </main>
     </div>
-  )
+  );
 }

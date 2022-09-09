@@ -17,7 +17,7 @@ export default function AboutPage() {
         <code className={'code'}>pages/about/index.jsx</code>
       </p>
     </>
-  )
+  );
 }
 
 AboutPage.getLayout = function getLayout(page: JSX.Element) {
@@ -27,5 +27,5 @@ AboutPage.getLayout = function getLayout(page: JSX.Element) {
         { page }
       </DarkLayout>
     </MainLayout>
-  )
+  );
 }

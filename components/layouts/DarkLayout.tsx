@@ -16,5 +16,5 @@ export const DarkLayout: FC<Props> = ({ children }) => {
         { children }
       </div>
     </div>
-  )
+  );
 }

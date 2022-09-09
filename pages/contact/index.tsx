@@ -16,5 +16,5 @@ export default function ContactPage() {
         <code className={'code'}>pages/contact/index.jsx</code>
       </p>
     </MainLayout>
-  )
+  );
 }

@@ -16,5 +16,5 @@ export default function PricingPage() {
         <code className={'code'}>pages/pricing/index.jsx</code>
       </p>
     </MainLayout>
-  )
+  );
 }

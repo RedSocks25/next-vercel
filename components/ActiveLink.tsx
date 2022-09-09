@@ -15,11 +15,11 @@ interface Props {
 
 export const ActiveLink: FC<Props> = ({ text, href }) => {
 
-  const { asPath } = useRouter()
+  const { asPath } = useRouter();
 
   return (
     <Link href={ href }>
       <a style={ asPath === href ? style : undefined }>{ text }</a>
     </Link>
-  )
+  );
 }
