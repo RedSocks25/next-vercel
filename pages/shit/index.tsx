@@ -2,30 +2,31 @@ import Link from 'next/link'
 import { DarkLayout } from '../../components/layouts/DarkLayout'
 import { MainLayout } from '../../components/layouts/MainLayout'
 
-export default function AboutPage() {
+export default function ShitPage() {
   return (
     <>
-      <h1>About Page</h1>
+      <h1>Shit Page</h1>
 
       <h1 className={'title'}>
         {/* Go to <a href="/">Home</a> */}
-        Página para Lau{/* <Link href="/">Lau</Link> */}
+        Go to <Link href="/">Home</Link>
       </h1>
 
       <p className={'description'}>
-        Sobre Lau: Tengo "1 año" menos que esa persona{' '}
-        {/* <code className={'code'}>pages/about/index.jsx</code> */}
+        Ignora a esa pendejita de complejo de superioridad. No te conocerá{' '}
+        <br></br>
+        <code className={'code'}>Ella se lo pierde</code>
       </p>
     </>
   );
 }
 
-AboutPage.getLayout = function getLayout(page: JSX.Element) {
+ShitPage.getLayout = function getLayout(page: JSX.Element) {
   return (
     <MainLayout>
-      
+      {/* <DarkLayout> */}
         { page }
-      
+      {/* </DarkLayout> */}
     </MainLayout>
   );
 }

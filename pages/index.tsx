@@ -6,16 +6,16 @@ import { MainLayout } from '../components/layouts/MainLayout';
 const Home: NextPage = () => {
   return (
     <MainLayout>
-      <h1>Home Page</h1>
+      <h1>Holi Lau</h1>
 
       <h1 className={'title'}>
         {/* Go to <a href="/about">About</a> */}
-        Go to <Link href="/about">About</Link>
+        Manda a esa loca del set de grabación a la <Link href="/shit">SHIT!</Link>
       </h1>
 
       <p className={'description'}>
-        Get started by editing{' '}
-        <code className={'code'}>pages/index.jsx</code>
+        Y esta es una mini página para molestar y decir que me{' '}
+        <code className={'code'}>agradas mucho</code>
       </p>
     </MainLayout>
   );
