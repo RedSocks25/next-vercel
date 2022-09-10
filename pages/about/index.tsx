@@ -9,23 +9,23 @@ export default function AboutPage() {
 
       <h1 className={'title'}>
         {/* Go to <a href="/">Home</a> */}
-        Página para Lau{/* <Link href="/">Lau</Link> */}
+        Go to <Link href="/">Home</Link>
       </h1>
 
       <p className={'description'}>
-        Sobre Lau: Tengo 1 año menos que esa persona{' '}
-        {/* <code className={'code'}>pages/about/index.jsx</code> */}
+        Get started by editing{' '}
+        <code className={'code'}>pages/about/index.jsx</code>
       </p>
     </>
-  );
+  )
 }
 
 AboutPage.getLayout = function getLayout(page: JSX.Element) {
   return (
     <MainLayout>
-      
+      <DarkLayout>
         { page }
-      
+      </DarkLayout>
     </MainLayout>
-  );
+  )
 }
