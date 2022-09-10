@@ -13,7 +13,7 @@ export default function AboutPage() {
       </h1>
 
       <p className={'description'}>
-        Sobre Lau: Tengo "1 año" menos que esa persona{' '}
+        Sobre Lau: Tengo 1 año menos que esa persona{' '}
         {/* <code className={'code'}>pages/about/index.jsx</code> */}
       </p>
     </>
